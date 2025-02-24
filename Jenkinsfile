@@ -5,7 +5,7 @@ pipeline{
 			steps{
 				echo 'Hello World'
 				echo 'Testing the scripted jenkinsfile'
-				bat 'java-version'
+				bat 'java --version'
 			}
 		}
 		stage('Compile'){
